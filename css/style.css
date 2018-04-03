@@ -50,9 +50,12 @@ footer {
 }
 
 body {
+
     background-color: #E8EAF6;
-    margin:5%;
-    margin-top:0;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    min-width: 600px;
 }
 
 article {
