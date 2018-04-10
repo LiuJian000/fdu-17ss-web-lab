@@ -13,7 +13,99 @@
 </header>
 <main>
    <section>
-   
+   <form>
+       <fieldset>
+           <legend>
+               PHOTO DETAILS
+           </legend>
+           <table>
+               <tr>
+                   <td colspan="2">
+                    Title
+                       <br>
+                       <input type="text" name="title" value="Give your photo a description name">
+                       <br>
+                       Description
+                       <br>
+                       <textarea >Adding a rich description will help with search results
+                       </textarea>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <form>
+                           Continent
+                           <br>
+                           <select name="Continent">
+                               <option value="Choose continent">Choose continent</option>
+                           </select>
+                           <br>
+                           Country
+                           <br>
+                           <select name="Country">
+                               <option value="Choose country">Choose country</option>
+                           </select>
+                           <br>
+                           City
+                           <br>
+                           <input type="text" name="city">
+                       </form>
+                   </td>
+                   <td>
+                       <form class="box">
+                           Copyright?
+                           <br>
+                           <input type="radio" name="Copyright" value="All rights reserved">All rights reserved
+                           <br>
+                           <input type="radio" name="Copyright" value="Creative Commons"> Creative Commons
+                       </form>
+                       <form class="box">
+                           Creative Commons Types
+                           <br>
+                           <input type="checkbox" name=Attribution">Attribution
+                           <br>
+                           <input type="checkbox" name="Noncommercial">Noncommercials
+                           <br>
+                           <input type="checkbox" name="No Derivative Works">No Derivative Works
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="2" class="rectangle">
+                       <form>
+                        I accept the software license<input type="checkbox">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       Rate this photo
+                       <br>
+                       <input type="number">
+                       <br>
+                       Color Collection
+                       <br>
+                       <input type="color">
+                   </td>
+                   <td class="box">
+                       Date Taken
+                       <br>
+                       <input type="date">
+                       <br>
+                       Time Taken
+                       <br>
+                       <input type="time">
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="2" class="rectangle">
+                       <input type="submit" value="提交" class="rounded">
+                       <input type="reset" value="clear form" class="rounded">
+                   </td>
+               </tr>
+           </table>
+       </fieldset>
+   </form>
    </section>
 </main>  
 
