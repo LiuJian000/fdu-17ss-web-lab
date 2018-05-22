@@ -1,0 +1,53 @@
+body{
+    min-width: 600px;
+}
+form{
+    text-align: center;
+}
+section{
+    text-align: center;
+    width: 100%;
+}
+select,button{
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+}
+button{
+    display: none;
+}
+.tbCreate{
+    display: none;
+}
+
+select{
+    margin-top: 50px;
+}
+
+.aboutTb input{
+    width: 140px;
+    margin-right: 8px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table thead th{
+    background-color: grey;
+    color: whitesmoke;
+    min-width: 40px;
+}
+td{
+    padding: 0 0.5em;
+}
+input{
+    margin-top: 10px;
+    margin-right: 10px;
+    height:30px;
+}
+.grey {
+    background-color: lightgrey;
+}
+.infor{
+    color: red;
+}
