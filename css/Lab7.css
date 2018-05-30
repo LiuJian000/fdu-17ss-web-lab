@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+.box{
+    text-align: center;
+    padding: 0.5em 0;
+    display: none;
+}
+.selectBox{
+    display: block;
+}
+#selectBox2{
+    margin-top: 2em;
+}
+select{
+    width: 200px;
+    border-radius: 5px;
+    height: 12pt;
+    font-size: 9pt;
+}
+button{
+    width: 200px;
+    height: 12pt;
+    font-size: 9pt;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0);
+    border: solid 1px;
+}
+#btCommitBox{
+    display: none;
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.51);
+    cursor: pointer;
+}
+input{
+    height: 10pt;
+    font-size: 8pt;
+    width: 95px;
+    margin: 0 5px;
+}
+table{
+    display: inline-block;
+}
+thead{
+    background-color: grey;
+    color: whitesmoke;
+}
+td{
+    background-color: lightgray;
+    width: 30px;
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
